@@ -9,6 +9,8 @@ import { FaChevronLeft } from "react-icons/fa6";
 import { FaChevronRight } from "react-icons/fa6";
 import Footer from "./components/Footer";
 
+import { SiAppstore } from "react-icons/si";
+import { FaGooglePlay } from "react-icons/fa";
 function App() {
   const divRef = useRef();
   const handleScrollLeft = () => {
@@ -36,10 +38,7 @@ function App() {
       <div className="w-4/5 m-auto py-20 ">
         <div className="flex justify-between items-center">
           <h1 className="text-2xl font-semibold">Popular Products</h1>
-          <a
-            href=""
-            className="px-8 py-2 bg-yellow-500 text-white rounded-full"
-          >
+          <a href="" className="px-8 py-2 bg-green-500 text-white rounded-full">
             See all
           </a>
         </div>
@@ -109,16 +108,32 @@ function App() {
         </div>
       </div>
 
-      <div>
-        <img src="/app.svg" alt="" />
-        <div>
-          <h1>Download App</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ratione
-            aut tempore cumque corrupti eos tenetur eveniet inventore, quod
-            provident quam sed deleniti exercitationem dolorum veniam amet dolor
-            soluta eius! Rerum animi amet perspiciatis.
-          </p>
+      <div className="w-4/5 m-auto ">
+        <div className="my-10 p-10 bg-green-400 rounded-xl flex justify-between items-center">
+          <img src="/app.svg" alt="" className="w-1/4" />
+          <div className="w-1/2 space-y-4">
+            <h1 className="text-3xl font-bold">Download App</h1>
+            <p className="text-sm">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+              ratione aut tempore cumque corrupti eos tenetur eveniet inventore,
+              quod provident quam sed deleniti exercitationem dolorum veniam
+              amet dolor soluta eius! Rerum animi amet perspiciatis.
+            </p>
+            <div class="flex space-x-8">
+              <button class="px-5 py-3 rounded-lg bg-gray-900 text-white flex items-center space-x-5">
+                <SiAppstore />
+                <a href="#" class="">
+                  Download for os
+                </a>
+              </button>
+              <button class="px-5 py-3 rounded-lg bg-gray-900 text-white flex items-center space-x-5">
+                <FaGooglePlay />
+                <a href="#" class="">
+                  Download for android
+                </a>
+              </button>
+            </div>
+          </div>
         </div>
       </div>
 
