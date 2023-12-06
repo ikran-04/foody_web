@@ -54,7 +54,7 @@ function App() {
         </div>
       </div>
 
-      <div className="w-4/5 m-auto p-10 bg-yellow-100">
+      <div className="w-4/5 m-auto p-10 bg-green-100">
         <h1 className="text-2xl font-semibold">Popular Bundle Pack</h1>
 
         <div className="grid grid-cols-4 gap-10 py-10 ">
@@ -109,7 +109,7 @@ function App() {
       </div>
 
       <div className="w-4/5 m-auto ">
-        <div className="my-10 p-10 bg-green-400 rounded-xl flex justify-between items-center">
+        <div className="my-20 p-10 bg-green-200 rounded-xl flex justify-between items-center">
           <img src="/app.svg" alt="" className="w-1/4" />
           <div className="w-1/2 space-y-4">
             <h1 className="text-3xl font-bold">Download App</h1>

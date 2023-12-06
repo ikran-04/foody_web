@@ -15,7 +15,7 @@ const Product = ({ src }) => {
     }
   };
   return (
-    <div className="border rounded-xl bg-white ">
+    <div className="border rounded-xl bg-white w-[350px] h-[380px]">
       <img src={src} alt="" className="w-full h-[200px]" />
       <div className="p-5 space-y-2">
         <h1 className="text-2xl font-semibold">Bannana</h1>

@@ -2,7 +2,7 @@ import React from "react";
 import { IoStar } from "react-icons/io5";
 const Review = () => {
   return (
-    <div className="p-5 rounded-xl flex-shrink-0 w-[550px] bg-white drop-shadow-lg space-y-5">
+    <div className="p-10 rounded-xl flex flex-col justify-center  flex-shrink-0 w-[550px] h-[300px] bg-white drop-shadow-lg space-y-5">
       <div className="profile flex items-center space-x-2">
         <img src="/profile.svg" alt="" className="w-12 h-12" />
         <div>
